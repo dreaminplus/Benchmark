@@ -9,11 +9,6 @@
 	<name>OWASP Benchmark Project</name>
 	<description>OWASP Benchmark is a Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools.</description>
 	<url>https://owasp.org/www-project-benchmark/</url>
-	<properties>
-	  <sonar.projectKey>dreaminplus_Benchmark</sonar.projectKey>
-	  <sonar.organization>dreaminplus</sonar.organization>
-	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
 	<developers>
 		<developer>
 			<id>davewichers</id>
@@ -1226,5 +1221,8 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 		<tomcat.major.version>8</tomcat.major.version>
 		<version.tomcat>8.5.40</version.tomcat>
 		<tomcat.url>http://archive.apache.org/dist/tomcat/tomcat-${tomcat.major.version}/v${version.tomcat}/bin/apache-tomcat-${version.tomcat}.zip</tomcat.url>
+	  <sonar.projectKey>dreaminplus_Benchmark</sonar.projectKey>
+	  <sonar.organization>dreaminplus</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 </project>
