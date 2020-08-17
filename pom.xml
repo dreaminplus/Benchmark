@@ -5,7 +5,6 @@
 	<artifactId>benchmark</artifactId>
 	<version>1.2</version>
 	<packaging>war</packaging>
-
 	
 	<name>OWASP Benchmark Project</name>
 	<description>OWASP Benchmark is a Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools.</description>
